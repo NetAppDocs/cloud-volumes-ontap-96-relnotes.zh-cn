@@ -1,0 +1,212 @@
+---
+sidebar: sidebar 
+permalink: reference-new.html 
+keywords: 'what"s new, new, features, release notes, enhancements' 
+summary: Cloud Volumes ONTAP 9.6 提供了几项新功能和增强功能。 
+---
+= Cloud Volumes ONTAP 9.6 中的新增功能
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Cloud Volumes ONTAP 9.6 提供了几项新功能和增强功能。
+
+最新版本的 Cloud Manager 还引入了其他功能和增强功能。请参见 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html["Cloud Manager 发行说明"^] 了解详细信息。
+
+
+
+== 9.6 P8 （ 2020 年 6 月 2 日）
+
+适用于 Cloud Volumes ONTAP 的 9.6 P8 修补版本现在可通过 Cloud Manager 3.8 及更高版本获得。Cloud Manager 将提示您将现有系统升级到此修补程序版本。 https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.6P8["查看 P8 修补程序中已修复的错误列表"^] （需要登录 NetApp 支持站点）。
+
+
+
+== 9.6 P7 （ 2020 年 4 月 8 日）
+
+适用于 Cloud Volumes ONTAP 的 9.6 P7 修补版本现在可通过 Cloud Manager 3.8 及更高版本获得。Cloud Manager 将提示您将现有系统升级到此修补程序版本。 https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.6P7["查看 P7 修补程序中已修复的错误列表"^] （需要登录 NetApp 支持站点）。
+
+
+
+== 9.6 P6 （ 2020 年 3 月 6 日）
+
+适用于 Cloud Volumes ONTAP 的 9.6 P6 修补程序版本现在可通过 Cloud Manager 3.8 及更高版本获得。Cloud Manager 将提示您将现有系统升级到此修补程序版本。 https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.6P6["查看 P6 修补程序中已修复的错误列表"^] （需要登录 NetApp 支持站点）。
+
+
+
+== AWS 更新（ 2020 年 2 月 16 日）
+
+我们引入了对新 EC2 实例的支持，并更改了支持的数据磁盘数量。
+
+
+
+=== 支持新实例
+
+现在，在使用高级版或 BYOL 许可证时， Cloud Volumes ONTAP 9.6 支持几种新的 EC2 实例类型：
+
+* c5.9xlarge
+* c5d.18x 大型 ^1 ， 2^
+* m5d.8xlarge ^1 ， 2^
+
+
+^1^ 这些实例类型包括本地 NVMe 存储， Cloud Volumes ONTAP 将其用作 _Flash Cache_ 。 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-flash-cache.html["了解更多信息。"^]。
+
+^2^ 9.6 P3 及更高版本支持这些实例类型。
+
+https://aws.amazon.com/ec2/instance-types/["详细了解这些 EC2 实例类型"^]。
+
+link:reference-configs-aws.html["详细了解 AWS 中支持的 9.6 配置"]。
+
+
+
+=== 支持的数据磁盘
+
+现在，对于 c5 ， m5 和 R5 实例，支持的数据磁盘数量减少了一个。对于单节点系统，支持 22 个数据磁盘。对于 HA 对，每个节点支持 19 个数据磁盘。
+
+link:reference-limits-aws.html["详细了解 AWS 中的存储限制"]。
+
+
+
+== 支持 Azure 中的 DS15_v2 （ 2020 年 2 月 12 日）
+
+现在，无论是单节点系统还是 HA 对， Azure 中的 DS15_v2 虚拟机类型都支持 Cloud Volumes ONTAP 。
+
+https://docs.microsoft.com/en-us/azure/virtual-machines/linux/sizes-memory#dsv2-series-11-15["了解有关 DSv2 系列的更多信息"^]。
+
+link:reference-configs-azure.html["详细了解 Azure 中支持的 9.6 配置"]。
+
+
+
+== 9.6 P5 （ 2019 年 12 月 26 日）
+
+适用于 Cloud Volumes ONTAP 的 9.6 P5 修补版本现在可通过 Cloud Manager 获得。Cloud Manager 将提示您将现有系统升级到此修补程序版本。 https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.6P5["查看 P5 修补程序中已修复的错误列表"^] （需要登录 NetApp 支持站点）。
+
+
+
+== 9.6 P4 （ 2019 年 11 月 14 日）
+
+适用于 Cloud Volumes ONTAP 的 9.6 P4 修补程序版本现在可通过 Cloud Manager 获得。Cloud Manager 将提示您将现有系统升级到此修补程序版本。 https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.6P4["查看 P4 修补程序中已修复的错误列表"^] （需要登录 NetApp 支持站点）。
+
+
+
+== 9.6 P3 （ 2019 年 10 月 23 日）
+
+适用于 Cloud Volumes ONTAP 的 9.6 P3 修补版本现在可通过 Cloud Manager 获得。Cloud Manager 将提示您将现有系统升级到此修补程序版本。 https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.6P3["查看 P3 修补程序中已修复的错误列表"^] （需要登录 NetApp 支持站点）。
+
+除了错误修复之外，此版本还支持以下功能：
+
+* 支持 AWS 中的 c5.18xlarge 实例类型。
+* 增加到 Azure 中单节点系统上的最大聚合大小：现在支持 352 TB 的原始容量。
++
+单节点系统的最大聚合大小以前为 200 TB 。
+
+
+
+
+
+== Google Cloud Marketplace 中的按需购买订阅（ 2019 年 10 月 6 日）
+
+You can now pay for Cloud Volumes ONTAP as you go by subscribing to Cloud Volumes ONTAP in the Google Cloud Platform Marketplace.
+
+https://console.cloud.google.com/marketplace/details/netapp-cloudmanager/cloud-manager?q=NetApp&id=8108721b-10e5-48be-88ed-387031dae492["Google Cloud Platform Marketplace: Cloud Manager for Cloud Volumes ONTAP"^]
+
+
+
+== Cloud Volumes ONTAP 在 Google Cloud 中全面上市（ 2019 年 9 月 3 日）
+
+现在，如果您自带许可证（ BYOL ），则 Cloud Volumes ONTAP 在 Google 云平台（ Google Cloud ）中已普遍可用。A pay-as-you-go promotion is also available.The promotion offers free licenses for an unlimited number of systems and will expire at the end of September 2019.
+
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html["了解如何开始使用 Google Cloud"^]
+* link:reference-configs-gcp.html["View supported configurations"]
+
+
+
+
+== 9.6 P2 （ 2019 年 8 月 29 日）
+
+适用于 Cloud Volumes ONTAP 的 9.6 P2 修补版本现在可通过 Cloud Manager 获得。Cloud Manager 将提示您将现有 9.5 和 9.6 系统升级到此修补程序版本。 https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.6P2["查看 P2 修补程序中已修复的错误列表"^] （需要登录 NetApp 支持站点）。
+
+
+
+== 9.6 GA （ 2019 年 7 月 15 日）
+
+Cloud Volumes ONTAP 9.6 的通用版本（ GA ）现已推出。GA 版本包含错误修复。Cloud Manager 将提示您将现有系统升级到此版本。
+
+
+NOTE: Cloud Volumes ONTAP 在 Google 云平台中仍保持私有预览状态。
+
+
+
+== 9.6 RC1 （ 2019 年 6 月 16 日）
+
+Cloud Volumes ONTAP 9.6 RC1 可在 AWS ， Azure 中使用，现在可在 Google 云平台中使用。此版本包含以下功能。
+
+* <<Private preview of Cloud Volumes ONTAP in Google Cloud Platform>>
+* <<Data tiering with HA pairs in Azure>>
+* <<Support for FlexCache volumes>>
+* <<Additional ONTAP changes>>
+
+
+
+
+=== 在 Google 云平台中对 Cloud Volumes ONTAP 进行私有预览
+
+现在，您可以在 Google 云平台中对 Cloud Volumes ONTAP 进行私有预览。与其他云提供商类似，适用于 Google 云平台的 Cloud Volumes ONTAP 可帮助您降低成本，提高性能和提高可用性。
+
+Cloud Volumes ONTAP 可作为单节点系统在 Google Cloud 中使用，并支持将数据分层到对象存储。
+
+To join the private preview, send a request to ng-Cloud-Volume-ONTAP-preview@netapp.com.
+
+
+
+=== 在 Azure 中使用 HA 对进行数据分层
+
+现在， Microsoft Azure 中的 Cloud Volumes ONTAP HA 对支持数据分层。通过数据分层，可以将非活动数据自动分层到低成本 Blob 存储。
+
+https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-tiering.html["了解如何在 Cloud Manager 中设置数据分层"^]。
+
+
+
+=== 支持 FlexCache 卷
+
+FlexCache 卷是一种存储卷，用于缓存原始（或源）卷中的 NFS 读取数据。后续读取缓存的数据会加快对该数据的访问速度。
+
+您可以使用 FlexCache 卷加快数据访问速度，或者从访问量较多的卷卸载流量。FlexCache 卷有助于提高性能，尤其是在客户端需要重复访问相同数据时，因为可以直接提供数据，而无需访问原始卷。FlexCache 卷非常适合读取密集型系统工作负载。
+
+Cloud Manager 目前不提供 FlexCache 卷的管理，但您可以使用 ONTAP 命令行界面或 ONTAP 系统管理器创建和管理 FlexCache 卷：
+
+* http://docs.netapp.com/ontap-9/topic/com.netapp.doc.pow-fc-mgmt/home.html["《 FlexCache 卷加快数据访问高级指南》"^]
+* http://docs.netapp.com/ontap-9/topic/com.netapp.doc.onc-sm-help-960/GUID-07F4C213-076D-4FE8-A8E3-410F49498D49.html["在 System Manager 中创建 FlexCache 卷"^]
+
+
+从 3.7.2 版开始， Cloud Manager 将为所有新的 Cloud Volumes ONTAP 系统生成 FlexCache 许可证。此许可证包含 500 GiB 的使用量限制。
+
+
+
+=== 其他 ONTAP 更改
+
+ONTAP 9.6 包括 Cloud Volumes ONTAP 用户可能感兴趣的其他更改：
+
+* SnapMirror 复制现在支持对传输中的通信进行 TLS 1.2 加密
+* 数据分层（ FabricPool ）增强功能包括：
++
+** 支持卷移动，而无需重新分层冷数据
+** SVM 灾难恢复支持
+
+
+
+
+有关 9.6 版的详细信息，请参见 https://library.netapp.com/ecm/ecm_download_file/ECMLP2492508["《 ONTAP 9 发行说明》"^]。
+
+
+
+== 升级说明
+
+* Cloud Volumes ONTAP 升级必须从 Cloud Manager 完成。您不应使用 System Manager 或命令行界面升级 Cloud Volumes ONTAP 。这样做可能会影响系统稳定性。
+* 您可以从 9.5 版升级到 Cloud Volumes ONTAP 9.6 。
+* 升级单节点系统会使系统脱机长达 25 分钟，在此期间 I/O 会中断。
+* 升级 HA 对无中断， I/O 不会中断。在此无中断升级过程中，每个节点会同时进行升级，以继续为客户端提供 I/O 。
+
