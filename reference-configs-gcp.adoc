@@ -6,6 +6,7 @@ summary: Cloud Volumes ONTAP 在 Google 云平台中作为单节点系统提供�
 ---
 = Google Cloud 支持的配置
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 
