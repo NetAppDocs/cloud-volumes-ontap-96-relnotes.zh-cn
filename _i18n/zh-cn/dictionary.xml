@@ -156,16 +156,12 @@
   <block id="7bb35241d1246d5dc87cb9e61c1efc05" category="summary">这些已知限制特定于 Microsoft Azure 中的 Cloud Volumes ONTAP 。</block>
   <block id="2d9da48a9b4a4fd6966adc9c52393b79" category="doc">Azure 中的已知限制</block>
   <block id="0328f3cd2aa15cf0cfa9a8cd39768eea" category="paragraph">以下已知限制特定于 Microsoft Azure 中的 Cloud Volumes ONTAP 。请务必同时查看 <block ref="3c5bba9e6532aaf7c9c167664226f819" category="inline-link-macro-rx"></block>。</block>
-  <block id="40f7aa196052206d81d0ee3a44db5c7c" category="section-title">不支持新部署</block>
   <block id="da62d944ecf70740a29a77a77b99932e" category="paragraph">Azure 不再支持新部署的 Cloud Volumes ONTAP 9.6 。您需要部署 Cloud Volumes ONTAP 9.7 。</block>
   <block id="0066e8873a17823db601b98ebbc37dd2" category="section-title">HA 限制</block>
   <block id="7e06c5d5d754bf97499c6ed081fc8e43" category="paragraph">以下限制会影响 Microsoft Azure 中的 Cloud Volumes ONTAP HA 对：</block>
   <block id="bd9f3210b7c4e1dfb162268596a29363" category="list-text">不支持 NFSv4 。支持 NFSv3 。</block>
   <block id="74522068eb4d7b9d888846015e92c07a" category="list-text">某些地区不支持 HA 对。</block>
   <block id="1538d38eb23a96781db500ec7bd30195" category="inline-link">请参见支持的 Azure 区域列表</block>
-  <block id="f5b8e6c4c4b082cf610f078e361a727f" category="paragraph"><block ref="1f129df010c594cb0d37bd30745a3820" category="inline-link-rx"></block>。</block>
-  <block id="e4f5b6f59db7bfa0e08c02262ddbd654" category="section-title">按需购买不适用于 CSP 合作伙伴</block>
-  <block id="f2ff5834d93c258f0fc4ad6cf6a17942" category="paragraph">如果您是 Microsoft Cloud 解决方案 Provider （ CSP ）合作伙伴，则无法部署 Cloud Volumes ONTAP Explore ，标准版或高级版，因为 CSP 合作伙伴不支持按需购买订阅。您必须购买许可证并部署 Cloud Volumes ONTAP BYOL 。</block>
   <block id="5520e32d61a58dff51fc6730939c3baf" category="summary">Cloud Volumes ONTAP 在 Google Cloud 中设置了存储配置限制，以提供可靠的操作。为获得最佳性能，请勿将系统配置为最大值。</block>
   <block id="c73908091fadeb9dec16abab42821644" category="doc">Google Cloud 中的存储限制</block>
   <block id="bd1aae9c9a2ad10315cc633ab8b20aea" category="paragraph">对于高级版和 BYOL 许可证，磁盘限制可防止您单独使用磁盘来达到 368 TB 容量限制。您可以通过达到 368 TB 容量限制<block ref="91a4fc4ecb983c2fca7588f26341e223" category="inline-link-rx"></block>。有关详细信息，请参见以下磁盘限制。</block>
@@ -507,4 +503,8 @@
   <block id="dea335c9c6f638eb584011e253ad6ca1" category="sidebar">ONTAP 云</block>
   <block id="33f66f5b18b24875dca7a81c8f84c5b9" category="cell">896 TiB</block>
   <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">所有 Cloud Manager 文档</block>
+  <block id="2f9882645b2c32820ad085240bacb763" category="paragraph-title">对于 HA ，是每个节点的许可证容量限制还是整个 HA 对的许可证容量限制？</block>
+  <block id="fc9a388cd18c69244f22554de6f0d544" category="paragraph-title">对于 AWS 中的 HA 系统，镜像数据是否计入容量限制？</block>
+  <block id="b7a391ba538fb8a6830548a168a702ed" category="section-title">不支持新部署</block>
+  <block id="1f129df010c594cb0d37bd30745a3820" category="paragraph"><block ref="1f129df010c594cb0d37bd30745a3820" category="inline-link-rx"></block></block>
 </blocks>

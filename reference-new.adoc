@@ -145,10 +145,10 @@ NOTE: Cloud Volumes ONTAP 在 Google 云平台中仍保持私有预览状态。
 
 Cloud Volumes ONTAP 9.6 RC1 可在 AWS ， Azure 中使用，现在可在 Google 云平台中使用。此版本包含以下功能。
 
-*  preview of Cloud Volumes ONTAP in Google Cloud Platform
-*  tiering with HA pairs in Azure
-*  for FlexCache volumes
-*  ONTAP changes
+* <<在 Google 云平台中对 Cloud Volumes ONTAP 进行私有预览>>
+* <<在 Azure 中使用 HA 对进行数据分层>>
+* <<支持 FlexCache 卷>>
+* <<其他 ONTAP 更改>>
 
 
 
