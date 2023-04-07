@@ -26,19 +26,6 @@ summary: 已知限制确定了本产品版本不支持的平台、设备或功�
 
 
 
-== 在中国地区提供支持
-
-中国地区支持 Cloud Volumes ONTAP ，如下所示。
-
-* AWS 中国地区支持 Cloud Volumes ONTAP 9.6 。
-* 支持单节点系统。
-* 支持直接从 NetApp 购买的许可证。
-
-
-不支持所有其他位置，版本，配置和许可证。
-
-
-
 == 软件更新必须由 Cloud Manager 完成
 
 Cloud Volumes ONTAP 升级必须从 Cloud Manager 完成。您不应使用 System Manager 或命令行界面升级 Cloud Volumes ONTAP 。这样做可能会影响系统稳定性。
