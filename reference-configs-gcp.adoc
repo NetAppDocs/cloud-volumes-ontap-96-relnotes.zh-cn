@@ -30,7 +30,7 @@ Cloud Volumes ONTAP 在 Google 云平台中作为单节点系统提供。有两�
 * 目前不支持从 PAYGO 转换为 BYOL 。
 * 我们提供基本技术支持，但您必须注册并激活与您的系统关联的 NetApp 序列号。
 +
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-registering.html["在 Cloud Manager 中注册按需购买系统"^]
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-registering.html["在 Cloud Manager 中注册按需购买系统"^]
 
 
 
@@ -77,7 +77,7 @@ Cloud Volumes ONTAP 在 Google 云平台中作为单节点系统提供。
 
 . 自定义计算机类型具有 4 个 vCPU 和 16 GB 内存。有关标准计算机类型的详细信息，请参见 https://cloud.google.com/compute/docs/machine-types#standard_machine_types["Google Cloud 文档：计算机类型"^]。
 . 使用 SSD 时会启用增强的写入性能。
-. 磁盘限制可防止单独使用磁盘达到 368 TB 容量限制。您可以通过达到 368 TB 容量限制 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-data-tiering.html["将非活动数据分层到对象存储"^]。
+. 磁盘限制可防止单独使用磁盘达到 368 TB 容量限制。您可以通过达到 368 TB 容量限制 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-data-tiering.html["将非活动数据分层到对象存储"^]。
 +
 link:reference-limits-gcp.html["详细了解 Google Cloud 中的磁盘限制"]。
 

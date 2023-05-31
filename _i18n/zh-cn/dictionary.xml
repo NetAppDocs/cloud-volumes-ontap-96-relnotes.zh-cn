@@ -16,10 +16,8 @@
   <block id="1de430b06ad7ac64cf016ffed9f4194b" category="section-title">Cloud Volumes ONTAP HA 对不支持即时存储交还</block>
   <block id="d69dddad3d38a1500a52e7e599cb94df" category="paragraph">节点重新启动后，配对节点必须先同步数据，然后才能返回存储。重新同步数据所需的时间取决于节点关闭时客户端写入的数据量以及交还期间的数据写入速度。</block>
   <block id="ac1c2f0887629ee768721c3b8cf91e3a" category="inline-link">了解存储在 AWS 中运行的 Cloud Volumes ONTAP HA 对中的工作原理</block>
-  <block id="1ede57873000993784f510b4546c1c3f" category="paragraph"><block ref="946966cdbb5ad64ec13d8ce9c3014b31" category="inline-link-rx"></block>。</block>
   <block id="feb49be8ef50e34ae8a47a5369859187" category="section-title">AWS C2S 环境中的限制</block>
   <block id="286cc15dc9f73773a029b936b2788c19" category="inline-link">开始使用 AWS C2S 环境</block>
-  <block id="e1fd46c84609b96f4458729b4ee8c5ea" category="paragraph">在 Cloud Manager 文档中查看限制：<block ref="fd45e509325fef59e1c268c2f62eedf4" category="inline-link-rx"></block></block>
   <block id="3bee858ea6f0b72c5c39cb3bd1c441f0" category="section-title">AWS GovCloud （美国）地区的限制</block>
   <block id="cb272a6dc5e534974a2ae26644e5635f" category="list-text">如果要在任何 AWS GovCloud （ US ）区域启动 Cloud Volumes ONTAP 实例，则必须在 AWS GovCloud （ US ）区域部署 Cloud Manager 。</block>
   <block id="77cc64ce7fdafcda7deefa3aa250801c" category="list-text">部署在 AWS GovCloud （美国）区域时， Cloud Manager 无法发现适用于 Microsoft Azure 的 NetApp 私有存储配置或适用于 SoftLayer 的 NetApp 私有存储配置中的 ONTAP 集群。</block>
@@ -29,7 +27,6 @@
   <block id="ecedb9353641e4bd058af0268a6edce8" category="section-title">按许可证计算的最大系统容量</block>
   <block id="7de15f2416b1b598e771303381d1179e" category="paragraph">Cloud Volumes ONTAP 系统的最大系统容量取决于其许可证。最大系统容量包括基于磁盘的存储以及用于数据分层的对象存储。NetApp 不支持超过此限制。</block>
   <block id="ba23388576c937a1743b84554bd13c72" category="inline-link">将非活动数据分层到对象存储</block>
-  <block id="073dcb6629ea09574fb688791b566258" category="paragraph">对于某些 HA 配置，磁盘限制会阻止您单独使用磁盘来达到 368 TiB 容量限制。在这些情况下，您可以通过达到 368 TiB 容量限制<block ref="91a4fc4ecb983c2fca7588f26341e223" category="inline-link-rx"></block>。有关详细信息，请参见以下容量和磁盘限制。</block>
   <block id="794df3791a8c800841516007427a2aa3" category="cell">许可证</block>
   <block id="643a529396d04bbbe61c8daa70456163" category="cell">最大系统容量（磁盘 + 对象存储）</block>
   <block id="1819001b72329e2ef5799fe504238035" category="cell">探索</block>
@@ -164,7 +161,6 @@
   <block id="1538d38eb23a96781db500ec7bd30195" category="inline-link">请参见支持的 Azure 区域列表</block>
   <block id="5520e32d61a58dff51fc6730939c3baf" category="summary">Cloud Volumes ONTAP 在 Google Cloud 中设置了存储配置限制，以提供可靠的操作。为获得最佳性能，请勿将系统配置为最大值。</block>
   <block id="c73908091fadeb9dec16abab42821644" category="doc">Google Cloud 中的存储限制</block>
-  <block id="bd1aae9c9a2ad10315cc633ab8b20aea" category="paragraph">对于高级版和 BYOL 许可证，磁盘限制可防止您单独使用磁盘来达到 368 TB 容量限制。您可以通过达到 368 TB 容量限制<block ref="91a4fc4ecb983c2fca7588f26341e223" category="inline-link-rx"></block>。有关详细信息，请参见以下磁盘限制。</block>
   <block id="5f807342ab46838a576d3111827add1c" category="cell">2 TB （ Explore 不支持数据分层）</block>
   <block id="1191f788083da9194f8eef9400d10898" category="cell">10 TB</block>
   <block id="86eaddcad9cef8a014b014a3ad2afb9c" category="cell">368 TB</block>
@@ -214,7 +210,6 @@
   <block id="0c4c4e63836f218793463e3bcdaddf27" category="list-text">在将 SSD 与 Cloud Volumes ONTAP 标准版，高级版和 BYOL 结合使用时，会启用增强的写入性能。</block>
   <block id="3de497f7f0c3d4c077d3911a90241bdb" category="list-text">不支持 GP3 SSD 。</block>
   <block id="9cb3b0db1f5a7a0032a165789bcde1dd" category="inline-link-macro">存储限制</block>
-  <block id="a80ff77ce9dbd5f7918811dad8935e62" category="list-text">对于某些 HA 配置，磁盘限制会阻止您单独使用磁盘来达到 368 TiB 容量限制。在这些情况下，您可以通过达到 368 TiB 容量限制<block ref="91a4fc4ecb983c2fca7588f26341e223" category="inline-link-rx"></block>。有关磁盘限制的信息，请参见 <block ref="71ccaacc6f6c8feca068c7ff1a7b2eb5" category="inline-link-macro-rx"></block>。</block>
   <block id="a3f8304ab1695053d71855c60f8abf63" category="inline-link">Cloud Volumes 全球地区</block>
   <block id="4375839c669e051e5f2a8de11ba0c5d0" category="list-text">有关 AWS 区域支持，请参见<block ref="2b6a522631c3b3b8afac5466195e108a" category="inline-link-rx"></block>。</block>
   <block id="36e4aa065725aff22926f2fed53bc3c7" category="section-title">支持的磁盘大小</block>
@@ -279,12 +274,6 @@
   <block id="a20ea8590a5bc20c473682a1138198a0" category="paragraph">以下限制适用于所有云提供商中的 Cloud Volumes ONTAP ： AWS ， Azure 和 Google Cloud 。</block>
   <block id="4ab1be901507467113ec58325fc4e033" category="section-title">最大并发复制操作数</block>
   <block id="55daffc7827b6ec74240106a8f647473" category="paragraph">无论实例类型或计算机类型如何， Cloud Volumes ONTAP 的并发 SnapMirror 或 SnapVault 传输的最大数量均为每个节点 100 。</block>
-  <block id="d302a39827e370146d2861389e98e60c" category="section-title">在中国地区提供支持</block>
-  <block id="da059bd73f7531380888607adbbd03aa" category="paragraph">中国地区支持 Cloud Volumes ONTAP ，如下所示。</block>
-  <block id="cbf02fb0cb394b4b19fb0788f9b62554" category="list-text">AWS 中国地区支持 Cloud Volumes ONTAP 9.6 。</block>
-  <block id="fcf30aaa0348521d4d4752992c9db378" category="list-text">支持单节点系统。</block>
-  <block id="80a79e3e92d4834ae8746d205e83c105" category="list-text">支持直接从 NetApp 购买的许可证。</block>
-  <block id="a5a1e4029969159a5f8fdeddd3fb7e1b" category="paragraph">不支持所有其他位置，版本，配置和许可证。</block>
   <block id="1d7a5501cfb31aff808abb63ef9085c2" category="section-title">软件更新必须由 Cloud Manager 完成</block>
   <block id="93e3c3d0ea43d600b3c3cd4548ea3987" category="paragraph">Cloud Volumes ONTAP 升级必须从 Cloud Manager 完成。您不应使用 System Manager 或命令行界面升级 Cloud Volumes ONTAP 。这样做可能会影响系统稳定性。</block>
   <block id="cbc4bd981852b46f0fbf6e6a6d4ed5af" category="section-title">不得从云提供商的控制台修改 Cloud Volumes ONTAP 部署</block>
@@ -314,7 +303,6 @@
   <block id="641cb6ea406fcea2f5cb83d5bff6a2cf" category="summary">Cloud Volumes ONTAP 9.6 提供了几项新功能和增强功能。</block>
   <block id="8c516265e5114ab1d7cdb12e4ef8f7be" category="doc">Cloud Volumes ONTAP 9.6 中的新增功能</block>
   <block id="f9d74313da16b2bb412c1d7c5efd0534" category="inline-link">Cloud Manager 发行说明</block>
-  <block id="62703524dbb4d20326585184b2149d4d" category="paragraph">最新版本的 Cloud Manager 还引入了其他功能和增强功能。请参见<block ref="b168941a5dc7eab411ef9dc2c7a220db" category="inline-link-rx"></block> 了解详细信息。</block>
   <block id="2ed207d0ccec3d8be6a97fa4e5cbe8cf" category="section-title">9.6 P8 （ 2020 年 6 月 2 日）</block>
   <block id="a5757ef07045a814bda504c5b48177c6" category="inline-link">查看 P8 修补程序中已修复的错误列表</block>
   <block id="743c27b399481dcab7ab9e4537f7b730" category="paragraph">适用于 Cloud Volumes ONTAP 的 9.6 P8 修补版本现在可通过 Cloud Manager 3.8 及更高版本获得。Cloud Manager 将提示您将现有系统升级到此修补程序版本。<block ref="27ed2f4c2c7cbda227c565c50709952b" category="inline-link-rx"></block> （需要登录 NetApp 支持站点）。</block>
@@ -330,7 +318,6 @@
   <block id="1262cbe5988bce9ddc648ddb16b2636d" category="paragraph">现在，在使用高级版或 BYOL 许可证时， Cloud Volumes ONTAP 9.6 支持几种新的 EC2 实例类型：</block>
   <block id="49528ea65a365d8dc0f923d95151fe53" category="list-text">c5d.18x 大型 ^1 ， 2^</block>
   <block id="7323a9688dc50d251d095d24857ab5aa" category="list-text">m5d.8xlarge ^1 ， 2^</block>
-  <block id="54e92fde42179ca33e3ab25b036eee3b" category="paragraph">^1^ 这些实例类型包括本地 NVMe 存储， Cloud Volumes ONTAP 将其用作 _Flash Cache_ 。<block ref="11a0a91823c32739dc802a8a06ed9368" category="inline-link-rx"></block>。</block>
   <block id="58f5bca7ebf9364add8b8aa49376d27a" category="paragraph">^2^ 9.6 P3 及更高版本支持这些实例类型。</block>
   <block id="e40db7e519ec8133d3d5ec2b6018eb7d" category="inline-link">详细了解这些 EC2 实例类型</block>
   <block id="14c41dc08d5ec9262ecf13e1e578aa8d" category="paragraph"><block ref="9c041fd599501fd190b6b179970667cf" category="inline-link-rx"></block>。</block>
@@ -366,7 +353,6 @@
   <block id="c22d58d132fde08e6cb3ce8682ef0c27" category="section-title">Cloud Volumes ONTAP 在 Google Cloud 中全面上市（ 2019 年 9 月 3 日）</block>
   <block id="b5c4261984e1b609960996cc7f8db6f1" category="paragraph">现在，如果您自带许可证（ BYOL ），则 Cloud Volumes ONTAP 在 Google 云平台（ Google Cloud ）中已普遍可用。A pay-as-you-go promotion is also available.The promotion offers free licenses for an unlimited number of systems and will expire at the end of September 2019.</block>
   <block id="aceb7b5c9dcaec5bdfbb67154ac957b7" category="inline-link">了解如何开始使用 Google Cloud</block>
-  <block id="c7713a8dd332a241f8ba976a2dfd415a" category="list-text"><block ref="c7713a8dd332a241f8ba976a2dfd415a" category="inline-link-rx"></block></block>
   <block id="4f43bc0d7d3c4f71a88bde15ba890d61" category="inline-link-macro">View supported configurations</block>
   <block id="9d259e09a2069492d05d38d036dc343f" category="list-text"><block ref="9d259e09a2069492d05d38d036dc343f" category="inline-link-macro-rx"></block></block>
   <block id="093b906e941c2ed3dbe4cd53fa2b968a" category="section-title">9.6 P2 （ 2019 年 8 月 29 日）</block>
@@ -388,7 +374,6 @@
   <block id="15b22b58ab99e57c3a666fd8ccafd60c" category="section-title">在 Azure 中使用 HA 对进行数据分层</block>
   <block id="781a2603f60f2e06f4bd34fe37dcceb2" category="paragraph">现在， Microsoft Azure 中的 Cloud Volumes ONTAP HA 对支持数据分层。通过数据分层，可以将非活动数据自动分层到低成本 Blob 存储。</block>
   <block id="2f455eadbff0e0cda8ff0cc2d5f1656a" category="inline-link">了解如何在 Cloud Manager 中设置数据分层</block>
-  <block id="cbd1f918660d8498d9e36cea1a052ceb" category="paragraph"><block ref="30318058820d18ebea3b434a4bb49cb6" category="inline-link-rx"></block>。</block>
   <block id="1b6c4eacbc8a0440eaac705ef435daca" category="section-title">支持 FlexCache 卷</block>
   <block id="2ddb8d07e9f5af9d9a76333b9ef2a7cb" category="paragraph">FlexCache 卷是一种存储卷，用于缓存原始（或源）卷中的 NFS 读取数据。后续读取缓存的数据会加快对该数据的访问速度。</block>
   <block id="90c624683582774042156c98858d14dc" category="paragraph">您可以使用 FlexCache 卷加快数据访问速度，或者从访问量较多的卷卸载流量。FlexCache 卷有助于提高性能，尤其是在客户端需要重复访问相同数据时，因为可以直接提供数据，而无需访问原始卷。FlexCache 卷非常适合读取密集型系统工作负载。</block>
@@ -422,7 +407,6 @@
   <block id="d1b41bae935c2bf4a024f87fd8d51066" category="list-text">目前不支持从 PAYGO 转换为 BYOL 。</block>
   <block id="af4bff0fe0220cab6d9e429a98e85d86" category="list-text">我们提供基本技术支持，但您必须注册并激活与您的系统关联的 NetApp 序列号。</block>
   <block id="ba6c2f02fab845cdcf205c763a833a95" category="inline-link">在 Cloud Manager 中注册按需购买系统</block>
-  <block id="43befa669bb3435dd7074ad9786f00ff" category="paragraph"><block ref="43befa669bb3435dd7074ad9786f00ff" category="inline-link-rx"></block></block>
   <block id="18f78dd4b1fa4f25ebb2af7059d2d1e9" category="section-title">BYOL 概述</block>
   <block id="7f76f820d237f30fbf118cdc0315682a" category="list-text">单节点许可证，具有基于期限的订阅选项，例如 12 个月， 24 个月等。</block>
   <block id="abb25ffe4ec9feb0c1e66c45b57baf75" category="list-text">在订阅期限内提供支持。</block>
@@ -442,7 +426,6 @@
   <block id="533aba66972b75bf0a272cff70a0da72" category="inline-link">Google Cloud 文档：计算机类型</block>
   <block id="59ef5de4b82ed93557c876f1dfde976a" category="list-text">自定义计算机类型具有 4 个 vCPU 和 16 GB 内存。有关标准计算机类型的详细信息，请参见<block ref="72c995a0d75f0c9234d21b302484afa8" category="inline-link-rx"></block>。</block>
   <block id="5063d3259058d90bbca06465957626d7" category="list-text">使用 SSD 时会启用增强的写入性能。</block>
-  <block id="af43b30ad14614d54641050981fca311" category="list-text">磁盘限制可防止单独使用磁盘达到 368 TB 容量限制。您可以通过达到 368 TB 容量限制<block ref="91a4fc4ecb983c2fca7588f26341e223" category="inline-link-rx"></block>。</block>
   <block id="f30cabe0a77d16d16cf1ef723d8eb186" category="inline-link-macro">详细了解 Google Cloud 中的磁盘限制</block>
   <block id="a93742b808592a2ce1b1926f98f391eb" category="paragraph"><block ref="46bbc0e4d7a811f26e46cbb2c2ad7173" category="inline-link-macro-rx"></block>。</block>
   <block id="7093754c2bc2f151c7deef337385971a" category="list-text">有关 Google Cloud Platform 区域支持，请参见<block ref="2b6a522631c3b3b8afac5466195e108a" category="inline-link-rx"></block>。</block>
@@ -502,9 +485,20 @@
   <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="sidebar">Cloud Volumes ONTAP</block>
   <block id="dea335c9c6f638eb584011e253ad6ca1" category="sidebar">ONTAP 云</block>
   <block id="33f66f5b18b24875dca7a81c8f84c5b9" category="cell">896 TiB</block>
-  <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">所有 Cloud Manager 文档</block>
   <block id="2f9882645b2c32820ad085240bacb763" category="paragraph-title">对于 HA ，是每个节点的许可证容量限制还是整个 HA 对的许可证容量限制？</block>
   <block id="fc9a388cd18c69244f22554de6f0d544" category="paragraph-title">对于 AWS 中的 HA 系统，镜像数据是否计入容量限制？</block>
   <block id="b7a391ba538fb8a6830548a168a702ed" category="section-title">不支持新部署</block>
   <block id="1f129df010c594cb0d37bd30745a3820" category="paragraph"><block ref="1f129df010c594cb0d37bd30745a3820" category="inline-link-rx"></block></block>
+  <block id="919f52135f3da38305bc973583dd5fb5" category="list-text">对于某些 HA 配置，磁盘限制会阻止您单独使用磁盘来达到 368 TiB 容量限制。在这些情况下，您可以通过达到 368 TiB 容量限制<block ref="aea0958203307daa433f894622f3e640" category="inline-link-rx"></block>。有关磁盘限制的信息，请参见 <block ref="71ccaacc6f6c8feca068c7ff1a7b2eb5" category="inline-link-macro-rx"></block>。</block>
+  <block id="ae90a2e4532cb9b615489b63c36e2383" category="paragraph"><block ref="dca5658ae26fff987979f5de0a83e9fd" category="inline-link-rx"></block>。</block>
+  <block id="6ed74a41a62734e492094462d818e839" category="paragraph">在 Cloud Manager 文档中查看限制：<block ref="39ce2d41c9ed9c2da4c4794ff62efcad" category="inline-link-rx"></block></block>
+  <block id="0d73bfd4e92d48867fdb0a3f45a09812" category="paragraph"><block ref="0d73bfd4e92d48867fdb0a3f45a09812" category="inline-link-rx"></block></block>
+  <block id="2cbcfcba309672185fc322395fbfc2b2" category="list-text">磁盘限制可防止单独使用磁盘达到 368 TB 容量限制。您可以通过达到 368 TB 容量限制<block ref="aea0958203307daa433f894622f3e640" category="inline-link-rx"></block>。</block>
+  <block id="298080da5481695f40c048881bb1d88d" category="paragraph">对于高级版和 BYOL 许可证，磁盘限制可防止您单独使用磁盘来达到 368 TB 容量限制。您可以通过达到 368 TB 容量限制<block ref="aea0958203307daa433f894622f3e640" category="inline-link-rx"></block>。有关详细信息，请参见以下磁盘限制。</block>
+  <block id="91154ee53f153787e229a41c309a7105" category="paragraph">对于某些 HA 配置，磁盘限制会阻止您单独使用磁盘来达到 368 TiB 容量限制。在这些情况下，您可以通过达到 368 TiB 容量限制<block ref="aea0958203307daa433f894622f3e640" category="inline-link-rx"></block>。有关详细信息，请参见以下容量和磁盘限制。</block>
+  <block id="6d43452380cd21cb4417b9a1824c3ac4" category="paragraph">最新版本的 Cloud Manager 还引入了其他功能和增强功能。请参见<block ref="ae983c0a7ee8a786f01e9cc8530d422b" category="inline-link-rx"></block> 了解详细信息。</block>
+  <block id="f0b3ec3784c8134aa3d1b3f616747c1f" category="paragraph">^1^ 这些实例类型包括本地 NVMe 存储， Cloud Volumes ONTAP 将其用作 _Flash Cache_ 。<block ref="b6abeaa384c5670d0721bcc6323011fc" category="inline-link-rx"></block>。</block>
+  <block id="f28445b786a8ee508a547eb98b06d004" category="list-text"><block ref="f28445b786a8ee508a547eb98b06d004" category="inline-link-rx"></block></block>
+  <block id="7ae536183899b3255ea022e34c5f3b1f" category="paragraph"><block ref="2fbfe631d352cae0cc3edf98b3ab020c" category="inline-link-rx"></block>。</block>
+  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">所有BlueXP文档</block>
 </blocks>

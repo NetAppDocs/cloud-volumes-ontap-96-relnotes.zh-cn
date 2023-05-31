@@ -16,7 +16,7 @@ summary: Cloud Volumes ONTAP 9.6 提供了几项新功能和增强功能。
 [role="lead"]
 Cloud Volumes ONTAP 9.6 提供了几项新功能和增强功能。
 
-最新版本的 Cloud Manager 还引入了其他功能和增强功能。请参见 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html["Cloud Manager 发行说明"^] 了解详细信息。
+最新版本的 Cloud Manager 还引入了其他功能和增强功能。请参见 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html["Cloud Manager 发行说明"^] 了解详细信息。
 
 
 
@@ -53,7 +53,7 @@ Cloud Volumes ONTAP 9.6 提供了几项新功能和增强功能。
 * m5d.8xlarge ^1 ， 2^
 
 
-^1^ 这些实例类型包括本地 NVMe 存储， Cloud Volumes ONTAP 将其用作 _Flash Cache_ 。 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-flash-cache.html["了解更多信息。"^]。
+^1^ 这些实例类型包括本地 NVMe 存储， Cloud Volumes ONTAP 将其用作 _Flash Cache_ 。 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-flash-cache.html["了解更多信息。"^]。
 
 ^2^ 9.6 P3 及更高版本支持这些实例类型。
 
@@ -120,7 +120,7 @@ https://console.cloud.google.com/marketplace/details/netapp-cloudmanager/cloud-m
 
 现在，如果您自带许可证（ BYOL ），则 Cloud Volumes ONTAP 在 Google 云平台（ Google Cloud ）中已普遍可用。A pay-as-you-go promotion is also available.The promotion offers free licenses for an unlimited number of systems and will expire at the end of September 2019.
 
-* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-gcp.html["了解如何开始使用 Google Cloud"^]
+* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-getting-started-gcp.html["了解如何开始使用 Google Cloud"^]
 * link:reference-configs-gcp.html["View supported configurations"]
 
 
@@ -167,7 +167,7 @@ To join the private preview, send a request to ng-Cloud-Volume-ONTAP-preview@net
 
 现在， Microsoft Azure 中的 Cloud Volumes ONTAP HA 对支持数据分层。通过数据分层，可以将非活动数据自动分层到低成本 Blob 存储。
 
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-tiering.html["了解如何在 Cloud Manager 中设置数据分层"^]。
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-tiering.html["了解如何在 Cloud Manager 中设置数据分层"^]。
 
 
 
