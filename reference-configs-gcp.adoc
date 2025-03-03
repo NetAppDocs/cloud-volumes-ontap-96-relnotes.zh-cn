@@ -81,7 +81,7 @@ Cloud Volumes ONTAP 在 Google 云平台中作为单节点系统提供。
 +
 link:reference-limits-gcp.html["详细了解 Google Cloud 中的磁盘限制"]。
 
-. 有关 Google Cloud Platform 区域支持，请参见 https://cloud.netapp.com/cloud-volumes-global-regions["Cloud Volumes 全球地区"^]。
+. 有关Google Cloud Platform区域支持，请参见 https://bluexp.netapp.com/cloud-volumes-global-regions["Cloud Volumes 全球地区"^]。
 
 
 

@@ -37,6 +37,6 @@ Azure 不再支持新部署的 Cloud Volumes ONTAP 9.6 。您需要部署 Cloud 
 * 不支持 NFSv4 。支持 NFSv3 。
 * 某些地区不支持 HA 对。
 +
-https://cloud.netapp.com/cloud-volumes-global-regions["请参见支持的 Azure 区域列表"^]
+https://bluexp.netapp.com/cloud-volumes-global-regions["请参见支持的 Azure 区域列表"^]
 
 
